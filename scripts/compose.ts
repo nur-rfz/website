@@ -138,7 +138,7 @@ inquirer
     {
       name: 'type',
       message: 'Enter the post type:',
-      type: 'list',
+      type: 'select',
       choices: ['Communication', 'Community', 'Engineering', 'Marketing', 'Strategy', 'Video']
     },
     {
