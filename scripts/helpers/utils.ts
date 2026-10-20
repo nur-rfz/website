@@ -24,6 +24,7 @@ function convertToJson(contentYAMLorJSON: unknown): any {
   } catch (jsonError) {
     // If it's not valid JSON, try parsing it as YAML
     try {
+      // TODO(yaml@2.9.1): recursive merge aliases (<<: *alias) are now limited; verify parsed output for documents relying on them.
       return yaml.parse(contentYAMLorJSON);
     } catch (yamlError) {
       // If parsing as YAML also fails, throw an error

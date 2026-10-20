@@ -71,8 +71,8 @@
     "cssnano": "^6.0.3",
     "dayjs": "^1.11.19",
     "dedent": "^1.5.1",
-    "dotenv": "^16.4.4",
     "dompurify": "3.4.16",
+    "dotenv": "^16.4.4",
     "fs-extra": "^11.2.0",
     "fuse.js": "^7.0.0",
     "googleapis": "^133.0.0",
@@ -118,7 +118,7 @@
     "tailwind-merge": "^2.2.1",
     "tailwindcss": "^3.4.3",
     "winston": "^3.17.0",
-    "yaml": "^2.8.3"
+    "yaml": "^2.9.1"
   },
   "devDependencies": {
     "@apidevtools/json-schema-ref-parser": "^14.2.1",
